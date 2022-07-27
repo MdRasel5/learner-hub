@@ -47,7 +47,7 @@ li {
 
 .common-btn2:hover {
     color: #fff;
-    border: 1px solid #289BDE;
+    border: 1px solid #fff;
     border-radius: 6px;
     padding: 10px 25px;
     background-color: #289BDE;
@@ -73,8 +73,12 @@ header {
 }
 
 /* Hero Section */
+.hero-section {
+    padding-bottom: 60px;
+}
+
 .single-slider {
-    height: 600px;
+    height: 500px;
 }
 
 .single-slider h2 {
@@ -103,6 +107,10 @@ header {
 }
 
 /* Course Area */
+.course-area {
+    padding: 65px 0;
+}
+
 .course-area h2 {
     font-weight: 600;
     font-weight: 45px;
@@ -115,6 +123,10 @@ header {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 30px;
     column-gap: 30px;
+}
+
+.single-course {
+    cursor: pointer;
 }
 
 .single-course h3 {
@@ -137,6 +149,10 @@ header {
 }
 
 /* Explore Area */
+.explore-area {
+    padding: 65px 0;
+}
+
 .explore-area h3 {
     font-size: 45px;
     line-height: 60px;
@@ -165,4 +181,55 @@ header {
 
 .explore-area .exlore .member {
     margin-right: 50px;
+}
+
+/* Singnup Area */
+.singup-area {
+    padding: 65px 0;
+}
+
+.singup-area .singup {
+    background-color: #289BDE;
+    padding: 80px 100px;
+    border-radius: 10px;
+}
+
+.singup-area .singup h3 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.singup-area .singup p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+/* Success Students Area */
+.succ-area {
+    padding: 65px 0;
+}
+
+.succ-area h3 {
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.succ-area p {
+    color: #777777;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.succ-area .single-studetns {
+    cursor: pointer;
 }
