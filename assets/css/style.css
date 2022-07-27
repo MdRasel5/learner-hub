@@ -233,3 +233,66 @@ header {
 .succ-area .single-studetns {
     cursor: pointer;
 }
+
+/* Students Feedback Area */
+.stu-fdb {
+    padding: 65px 0;
+}
+
+.stu-fdb h3 {
+    font-size: 45px;
+    color: #1D1D1D;
+    line-height: 60px;
+}
+
+.stu-fdb p {
+    font-size: 16px;
+    color: #777777;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+
+.stu-fdb .single-fdb .card {
+    padding: 40px;
+}
+
+.stu-fdb .single-fdb .card .fdb-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stu-fdb .single-fdb .card .fdb-star i {
+    color: #fabd22;
+}
+
+.fdb-text {
+    margin-bottom: 15px;
+}
+
+.fdb-text p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+.stu-detail {
+    display: flex;
+}
+
+.stu-detail .stu-img {
+    margin-right: 15px;
+}
+
+.stu-detail .stu-info h6 {
+    font-size: 18px;
+    line-height: 14px;
+}
+
+.stu-detail .stu-info p {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 0;
+}
