@@ -1,0 +1,105 @@
+/* Common CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.common-btn {
+    color: #fff;
+    border: 1px solid #289BDE;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: #289BDE;
+    transition: all .3s;
+}
+
+.common-btn:hover {
+    color: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: #fff;
+}
+
+.common-btn2 {
+    color: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.common-btn2:hover {
+    color: #fff;
+    border: 1px solid #289BDE;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: #289BDE;
+}
+
+/* Header Area */
+header {
+    padding: 30px 0;
+}
+
+.header-area .logo-area h2 a {
+    font-weight: 600;
+    color: #000;
+}
+
+.header-area .menu-area ul li {
+    margin-left: 20px;
+}
+
+.header-area .menu-area ul li a:hover,
+.header-area .menu-area ul li .active {
+    color: #289BDE !important;
+}
+
+/* Hero Section */
+.single-slider {
+    height: 600px;
+}
+
+.single-slider h2 {
+    font-size: 60px;
+    line-height: 80px;
+    color: #fff;
+}
+
+.single-slider p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.carousel-caption {
+    right: 0;
+    bottom: 0;
+    top: 20%;
+    left: 12%;
+}
+
+.carousel-inner {
+    border-radius: 10px !important;
+}
+
+/* Course Area */
