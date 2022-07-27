@@ -103,3 +103,33 @@ header {
 }
 
 /* Course Area */
+.course-area h2 {
+    font-weight: 600;
+    font-weight: 45px;
+    color: #000;
+}
+
+.courses {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.single-course h3 {
+    color: #4A4A4A;
+    font-weight: 600;
+}
+
+.single-course p {
+    color: #777777;
+    font-weight: normal;
+}
+
+.single-course .course-price {
+    color: #289BDE;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
