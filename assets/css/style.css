@@ -120,6 +120,8 @@ header {
 .single-course h3 {
     color: #4A4A4A;
     font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .single-course p {
@@ -132,4 +134,35 @@ header {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+}
+
+/* Explore Area */
+.explore-area h3 {
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+    font-weight: 600;
+}
+
+.explore-right {
+    padding-left: 60px;
+}
+
+.explore-area p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.explore-area .exlore {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.explore-area .exlore .online-course {
+    margin-right: 50px;
+}
+
+.explore-area .exlore .member {
+    margin-right: 50px;
 }
