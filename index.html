@@ -16,6 +16,7 @@
 
     <!-- Style Sheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
@@ -25,46 +26,93 @@
         <div class="container">
             <div class="row align-items-center">
 
-                <div class="col-lg-3">
+                <div class="d-sm-none d-md-block col-md-4 col-lg-3">
                     <div class="logo-area">
                         <h2><a href="index.html">Learner Hub</a></h2>
                     </div>
                 </div>
-                <div class="col-lg-6 text-center">
-                    <nav class="menu-area navbar navbar-expand-lg navbar-light">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Course</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Deals</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Success</a>
-                                </li>
+                <div class="d-sm-none d-md-block col-md-8 col-lg-6 text-center">
+                    <!-- Menu For Desktop -->
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <nav class="desktop-menu menu-area navbar navbar-expand-md navbar-expand-lg navbar-light">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Course</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Success</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
                     </nav>
+
                 </div>
-                <div class="col-lg-3">
+                <div class="d-sm-none d-md-none d-lg-block col-lg-3">
                     <a class="common-btn2" href="index.html">Register</a>
                 </div>
+
+                <!-- Menu For Mobile -->
+                <div class="mobile-menu">
+                    <nav class="navbar" aria-label="Light offcanvas navbar">
+                        <a class="navbar-brand" href="#">Light offcanvas navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+                            <span class="navbar-toggler-icon"><i class="fa-solid fa-align-justify"></i></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight"
+                            aria-labelledby="offcanvasNavbarLightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Offcanvas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex mt-3" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+
+                <!-- Menu For Tablet & Mobile End -->
 
             </div>
         </div>
@@ -127,7 +175,7 @@
             <div class="courses">
                 <div class="single-course">
                     <div class="card" style="max-width: 600px;">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-4">
                                 <img src="./assets/images/course/course-1.png" class="img-fluid rounded-start"
                                     alt="course">
@@ -146,7 +194,7 @@
 
                 <div class="single-course">
                     <div class="card" style="max-width: 600px;">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-4">
                                 <img src="./assets/images/course/course-6.png" class="img-fluid rounded-start"
                                     alt="course">
@@ -164,7 +212,7 @@
                 </div>
                 <div class="single-course">
                     <div class="card" style="max-width: 600px;">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-4">
                                 <img src="./assets/images/course/course-2.png" class="img-fluid rounded-start"
                                     alt="course">
@@ -183,7 +231,7 @@
 
                 <div class="single-course">
                     <div class="card" style="max-width: 600px;">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-4">
                                 <img src="./assets/images/course/course-3.png" class="img-fluid rounded-start"
                                     alt="course">
@@ -203,7 +251,7 @@
 
                 <div class="single-course">
                     <div class="card" style="max-width: 600px;">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-4">
                                 <img src="./assets/images/course/course-4.png" class="img-fluid rounded-start"
                                     alt="course">
@@ -222,7 +270,7 @@
 
                 <div class="single-course">
                     <div class="card" style="max-width: 600px;">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-4">
                                 <img src="./assets/images/course/course-5.png" class="img-fluid rounded-start"
                                     alt="course">
@@ -251,7 +299,7 @@
             <div class="card">
                 <div class="row g-0 align-items-center">
                     <div class="col-md-4">
-                        <img src="./assets/images/working.png" class="img-fluid rounded-start" alt="working">
+                        <img src="./assets/images/e2.jpg" class="img-fluid rounded-start" alt="working">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body text-start explore-right">
@@ -259,14 +307,15 @@
                             <div class="card-text">
                                 <p>There are many variations of passages of Lorem Ipsum available, but the
                                     majority have suffered alteration in some form, by injected humour, or randomised
-                                    words
-                                    which don't look even slightly believable. If you are going to use a passage of
-                                    Lorem
-                                    Ipsum, you need to be sure.</p>
-                                <p>
+                                    words.
+                                </p>
+                                <p class="hide">
                                     Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators
                                     on
-                                    the Internet tend to repeat predefined.</p>
+                                    the Internet tend to repeat predefined. which don't look even slightly believable.
+                                    If you are going to use a passage of
+                                    Lorem
+                                    Ipsum, you need to be sure.</p>
                             </div>
                             <div class="exlore">
                                 <div class="online-course">
@@ -380,7 +429,7 @@
 
             <div class="succ-studetns">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="card single-studetns" style="width: 18rem;">
                             <img src="./assets/images/student/student-1.png" class="card-img-top" alt="student">
                             <div class="card-body">
@@ -389,7 +438,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="card single-studetns" style="width: 18rem;">
                             <img src="./assets/images/student/student-2.png" class="card-img-top" alt="student">
                             <div class="card-body">
@@ -398,7 +447,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="card single-studetns" style="width: 18rem;">
                             <img src="./assets/images/student/student-3.png" class="card-img-top" alt="student">
                             <div class="card-body">
@@ -407,7 +456,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="card single-studetns" style="width: 18rem;">
                             <img src="./assets/images/student/student-4.png" class="card-img-top" alt="student">
                             <div class="card-body">
@@ -437,7 +486,7 @@
                 content of a page
                 when looking at its layout.</p>
             <div class="row align-items-center">
-                <div class="col-6">
+                <div class="col-12 col-md-12 col-lg-6">
                     <div class="single-fdb">
                         <div class="card rounded">
                             <div class="fdb-top">
@@ -470,7 +519,7 @@
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-12 col-md-12 col-lg-6">
                     <div class="single-fdb">
                         <div class="card rounded">
                             <div class="fdb-top">
@@ -527,8 +576,8 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                            <div class="accordion-body text-start">
+                                It is shown by default, until
                                 the collapse
                                 plugin adds the appropriate classes that we use to style each element. These classes
                                 control the overall
@@ -549,8 +598,8 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            <div class="accordion-body  text-start">
+                                It is hidden by default,
                                 until the collapse
                                 plugin adds the appropriate classes that we use to style each element. These classes
                                 control the overall
@@ -571,8 +620,8 @@
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                            <div class="accordion-body  text-start">
+                                t is hidden by default, until
                                 the collapse
                                 plugin adds the appropriate classes that we use to style each element. These classes
                                 control the overall
@@ -614,9 +663,6 @@
                     <a href="#"><img src="./assets/images/company/company-6.png" alt="company"></a>
                 </div>
             </div>
-
-
-        </div>
         </div>
     </section>
 

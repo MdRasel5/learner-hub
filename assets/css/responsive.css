@@ -1,0 +1,176 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .container{
+        width: 1140px;
+    }
+
+    .single-slider img{
+        height: 500px;
+    }
+    
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        width: 960px;
+    }
+
+    .header-area .menu-area ul li {
+        margin-left: 0px;
+    }
+
+    .single-slider img{
+        height: 500px;
+    }
+
+    .single-slider h2 {
+        font-size: 38px;
+        line-height: 60px;
+    }
+
+    .courses{
+        display: block;
+    }
+
+    .single-course .card{
+        max-width: 95%!important;
+        margin-bottom: 20px;
+    }
+
+    
+    .single-course .card img{
+        width: 100% !important;
+    }
+
+
+    .single-studetns{
+        margin-bottom: 30px;
+    }
+    
+    .singup-area .singup {
+        padding: 40px 60px;
+    }
+
+    .tr-company{
+        display: none;
+    }
+    .footer-area{
+        padding: 80px 0;
+    }
+    .hide{
+        display: none;
+    }
+      
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .container{
+         width: 720px;
+    }
+
+    .header-area .menu-area ul li{
+        margin: 0;
+    }
+
+    .single-slider img{
+        height: 470px;
+    }
+
+    .single-slider h2 {
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+    .hero-section{
+        padding-bottom: 0;
+    }
+    .courses{
+        display: block;
+    }
+    
+    .courses .card{
+        max-width: 100%!important
+    }
+    .courses .card img{
+        width: 100%!important
+    }
+
+    .single-course{
+        margin-bottom: 30px;
+    }
+
+    .explore-area h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .explore-area .exlore .online-course{
+        margin-right: 10px;
+    }
+    
+    .explore-area .exlore .member{
+        margin-right: 10px;
+    }
+    
+    .card-text p{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+
+    .singup-area{
+        text-align: center;
+    }
+
+    .singup-area p br{
+       display: none;
+    }
+
+    .signup-action{
+        text-align: center!important;
+        margin-top: 20px;
+    }
+    .single-studetns{
+        margin-bottom: 30px;
+    }
+
+    .tr-company{
+        display: none;
+    }
+
+    .single-fdb{
+        margin-bottom: 30px;
+    }
+
+    .faq-area{
+        padding: 0 0 65px 0;
+    }
+
+}
+
+ 
+
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ .mobile-menu{
+        display: block;
+    }  
+}
+
+/* small mobile :320px. */
+
+@media (min-width: 320px) and (max-width: 479.8px) {
+    
+    .mobile-menu{
+        display: block;
+    }  
+}
