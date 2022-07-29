@@ -387,9 +387,17 @@ header {
     font-weight: 400;
 }
 
+.footer-area .important-link a:hover {
+    color: #fff;
+}
+
 .footer-area .socials a {
     color: #777;
     font-size: 16px;
     font-weight: 400;
     margin-right: 10px;
+}
+
+.footer-area .socials a:hover {
+    color: #fff;
 }

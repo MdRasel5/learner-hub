@@ -292,10 +292,13 @@
 
 @media (min-width: 320px) and (max-width: 479.8px) {
 
+    body {
+        padding: 0 10px;
+    }
+
     .mobile-menu {
         display: block;
     }
-
 
     .desktop-menu {
         display: none;
@@ -330,6 +333,12 @@
     .hero-section {
         padding-bottom: 0;
     }
+
+    .hero-section h2 br {
+        display: none;
+    }
+
+
 
     .courses {
         display: block;
